@@ -1,0 +1,13 @@
+$(document).ready(function() {
+    //pull in id of hours and send it to local storage
+    //
+    //get the current number of hours (function) .each
+    //loop over it
+    //parseInt
+    //check if we moved past this time
+
+    //(function) then pull everything from local storage
+    $('#currentDay').text(moment().format('dddd, MMM, Do, YYYY'));
+    console.log(currentDay);
+
+});
