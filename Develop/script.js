@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-    $('.saveBtn').click(function() {
-
+    $(".saveBtn ").click(function(event) {
+        var $button = $(event.target);
     });
     //pull in id of hours and send it to local storage
     //
