@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+    $('.saveBtn').click(function() {
+
+    });
     //pull in id of hours and send it to local storage
     //
     //get the current number of hours (function) .each
@@ -8,6 +12,5 @@ $(document).ready(function() {
 
     //(function) then pull everything from local storage
     $('#currentDay').text(moment().format('dddd, MMM, Do, YYYY'));
-    console.log(currentDay);
 
 });
