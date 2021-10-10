@@ -5,3 +5,4 @@ This week's assignment invites us to create a simple calendar application that a
 URL: https://github.com/wl0194/Calendar-app
 https://wl0194.github.io/Calendar-app/
 
+![calendar app](./Img/demo.png) 
