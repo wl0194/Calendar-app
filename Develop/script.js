@@ -13,7 +13,8 @@ $(document).ready(function() {
 
         $(".time-block").each(function() {
             var blockTime = parseInt($(this).attr("id").split("hour")[1]);
-
+            console.log(blockTime);
+            console.log(timeNow);
 
             if (blockTime < timeNow) {
                 $(this).removeClass("future");
@@ -30,7 +31,8 @@ $(document).ready(function() {
 
             }
         })
-    }
+    };
+
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hou10"));
     $("#hour11 .description").val(localStorage.getItem("hour11"));
