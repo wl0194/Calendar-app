@@ -4,7 +4,7 @@ This week's assignment invites us to create a simple calendar application that a
 
 # Demo
 
-![calendar app](./assets/Img/demo.png) 
+![calendar app](assets/Img/demo.png) 
 
 # Links
 
